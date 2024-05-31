@@ -17,7 +17,7 @@ public class View {
 		Scanner scanner = new Scanner(System.in);
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			System.out.println("drivers load successfully ..........");
+			System.out.println("drivers load successfully    ..........");
 		} catch (ClassNotFoundException e) {
 			System.out.println("class notfound exception occurs");
 		}
